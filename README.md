@@ -21,24 +21,37 @@ $ make
 
 Now, there should be an executable named [pwgen] in the project root directory.
 
+### Installation
+
+To install the program, just run
+
+```
+$ sh ./install.sh
+```
+
+The script is going to compile the program (if not compiled yet) ans then copy it to the /usr/local/bin folder, where bash will detect the executable. You can aswell do it manually :)
+
 ## Usage
 
 The app allows you to generate random passwords where you can choose the difficulty and length of it. The program has the following systax:
 
 ```
-$ pwgen [difficulty] [length]
+$ ./pwgen [difficulty] [length]
 ```
 
 Where <strong>difficulty</strong> is a value between 0 and 3, being:
 
 ```
-Difficulty		Charset
-0				lowercase letters
-1				uppercase and lowercase letters
-2				numbers with lowercase and uppercase letters
-3				special character with numbers, lowercase and uppercase letters
+0	->		lowercase letters
+1	->		uppercase and lowercase letters
+2	->		numbers with lowercase and uppercase letters
+3	->		special character with numbers, lowercase and uppercase letters
 ```
 
 and 0 is the default difficulty.
 
 <strong>Length</strong> is the amount of character you want your password to have. The default value is 16.
+
+## Authors
+
+* ** Icaro Freire **
