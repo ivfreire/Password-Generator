@@ -29,7 +29,7 @@ To install the program, just run
 $ sh ./install.sh
 ```
 
-The script is going to compile the program (if not compiled yet) ans then copy it to the /usr/local/bin folder, where bash will detect the executable. You can aswell do it manually :)
+The script is going to compile the program (if not compiled yet) and then copy it to the /usr/local/bin folder, where bash will detect it as an executable that can be called on the terminal. You can aswell do it yourself manually :)
 
 ## Usage
 
