@@ -29,13 +29,14 @@ The app allows you to generate random passwords where you can choose the difficu
 $ pwgen [difficulty] [length]
 ```
 
-Where <strong>difficulty</string> is a value between 0 and 3, being:
+Where <strong>difficulty</strong> is a value between 0 and 3, being:
 
 ```
-0		->		lowercase letters
-1		->		uppercase and lowercase letters
-2		->		numbers with lowercase and uppercase letters
-3		->		special character with numbers, lowercase and uppercase letters
+Difficulty		Charset
+0				lowercase letters
+1				uppercase and lowercase letters
+2				numbers with lowercase and uppercase letters
+3				special character with numbers, lowercase and uppercase letters
 ```
 
 and 0 is the default difficulty.
