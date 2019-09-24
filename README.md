@@ -12,7 +12,7 @@ The project requires CMake for compilation.
 
 ### Compilation
 
-After cloning the repository, just run the build.sh script. Alternativelly, you can run
+After cloning the repository, just run the build.sh script. Alternatively, you can run
 
 ```
 $ cmake .
