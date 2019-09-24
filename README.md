@@ -12,14 +12,14 @@ The project requires CMake for compilation.
 
 ### Compilation
 
-After cloning the repository, just run the [build.sh] script. Alternativelly, you can run
+After cloning the repository, just run the build.sh script. Alternativelly, you can run
 
 ```
 $ cmake .
 $ make
 ```
 
-Now, there should be an executable named [pwgen] in the project root directory.
+Now, there should be an executable named pwgen in the project root directory.
 
 ### Installation
 
